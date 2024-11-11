@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+jupyter = "*"
+numpy = "*"
+matplotlib = "*"
+tensorly = "*"
+matlab = "*"
+scikit-learn = "*"
+matlabengine = "==9.13.11"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
